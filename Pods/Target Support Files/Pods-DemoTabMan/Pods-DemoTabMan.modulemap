@@ -1,0 +1,6 @@
+framework module Pods_DemoTabMan {
+  umbrella header "Pods-DemoTabMan-umbrella.h"
+
+  export *
+  module * { export * }
+}

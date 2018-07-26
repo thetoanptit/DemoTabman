@@ -1,0 +1,46 @@
+PODS:
+  - ChameleonFramework/Default (2.1.0)
+  - ChameleonFramework/Swift (2.1.0):
+    - ChameleonFramework/Default
+  - CollectionKit (2.0.1)
+  - Hero (1.0.1)
+  - Pageboy (2.1.0)
+  - PureLayout (3.0.2)
+  - Tabman (1.1.2):
+    - Pageboy (~> 2.0)
+    - PureLayout (~> 3.0)
+
+DEPENDENCIES:
+  - ChameleonFramework/Swift (from `https://github.com/ViccAlexander/Chameleon.git`)
+  - CollectionKit (~> 2.0.1)
+  - Hero
+  - Tabman
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CollectionKit
+    - Hero
+    - Pageboy
+    - PureLayout
+    - Tabman
+
+EXTERNAL SOURCES:
+  ChameleonFramework:
+    :git: https://github.com/ViccAlexander/Chameleon.git
+
+CHECKOUT OPTIONS:
+  ChameleonFramework:
+    :commit: 6dd284bde21ea2e7f9fd89bc36f40df16e16369d
+    :git: https://github.com/ViccAlexander/Chameleon.git
+
+SPEC CHECKSUMS:
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  CollectionKit: c891976ede4e800e2102333df310edc06d8430f4
+  Hero: cee286821578e170d8c0c9c9cda7897357401112
+  Pageboy: f137e98cdb92c1913401d9d3c8888951ff81a630
+  PureLayout: 4d550abe49a94f24c2808b9b95db9131685fe4cd
+  Tabman: 94692b62fc58ed4945220be2f3f0ad7406aa3699
+
+PODFILE CHECKSUM: a5570a36fc9c09563bec1d15d62990e1d35946e8
+
+COCOAPODS: 1.5.2
